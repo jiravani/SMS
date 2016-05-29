@@ -1,6 +1,9 @@
 from twilio.rest import TwilioRestClient
 import argparse
 
+global account_sid
+global auth_token
+
 account_sid = "AC89d402c514180648e06a11e535dda1b7"  # Your Account SID from www.twilio.com/console
 auth_token = "342109ebe78d778e3b97ffec61fd6cce"  # Your Auth Token from www.twilio.com/console
 
@@ -16,6 +19,7 @@ parser.add_argument("-p", "--phonenumber", type=int,
 parser.add_argument("-v", "--variable",
                     help="Some persistent variable")
 args = parser.parse_args()
+
 if args.accountid:
     print("Twilio Account SID: " + account_sid)
     exit()
