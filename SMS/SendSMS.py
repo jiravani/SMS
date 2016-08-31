@@ -1,8 +1,8 @@
 from twilio.rest import TwilioRestClient
 
 # To find these visit https://www.twilio.com/user/account
-ACCOUNT_SID = "AC89d402c514180648e06a11e535dda1b7"
-AUTH_TOKEN = "342109ebe78d778e3b97ffec61fd6cce"
+ACCOUNT_SID = "AC89d402cEXAMPLE06a11e535dda1b7"
+AUTH_TOKEN = "342109ebEXAMPLEfec61fd6cce"
 
 client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN)
 m = "Heetin"
