@@ -4,7 +4,7 @@ import argparse
 global account_sid
 global auth_token
 
-account_sid = "AC89d402c514180648e06a11e535dda1b7"  # Your Account SID from www.twilio.com/console
+account_sid = "ABCDEFGHIJKLMNOP"  # Your Account SID from www.twilio.com/console
 auth_token = "342109ebe78d778e3b97ffec61fd6cce"  # Your Auth Token from www.twilio.com/console
 
 client = TwilioRestClient(account_sid, auth_token)
